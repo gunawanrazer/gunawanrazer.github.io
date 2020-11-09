@@ -264,13 +264,13 @@
                         $Notif ="";
                         if (isset($_GET['error'])) 
                         {
-                        	$Notif = "Please Fill in the Blanks";
+                        	$Message = "Please Fill in the Blanks";
                         	echo '<div class="alert alert-danger">'.$Notif.'</div>';
                         }
 
                         if (isset($_GET['success'])) 
                         {
-                        	$Notif = "Your Message Has Been Sent";
+                        	$Message = "Your Message Has Been Sent";
                         	echo '<div class="alert alert-success">'.$Notif.'</div>';
                         }
                         ?>

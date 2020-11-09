@@ -261,17 +261,17 @@
 						<input type="submit" name="submit" value="Submit">
 						<div id="statusMessage"> 
                         <?php
-                        $Notif ="";
+                        $Message ="";
                         if (isset($_GET['error'])) 
                         {
                         	$Message = "Please Fill in the Blanks";
-                        	echo '<div class="alert alert-danger">'.$Notif.'</div>';
+                        	echo '<div class="alert alert-danger">'.$Message.'</div>';
                         }
 
                         if (isset($_GET['success'])) 
                         {
                         	$Message = "Your Message Has Been Sent";
-                        	echo '<div class="alert alert-success">'.$Notif.'</div>';
+                        	echo '<div class="alert alert-success">'.$Message.'</div>';
                         }
                         ?>
                     </div>

@@ -1,3 +1,5 @@
+<?php
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- Head -->
@@ -383,3 +385,5 @@
 
 </body>
 </html>
+
+?>
